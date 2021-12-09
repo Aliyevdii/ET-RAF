@@ -8,12 +8,14 @@ import os
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 API_ID = os.getenv("API_ID")
 API_HASH = os.getenv("API_HASH")
+KANAL_ID = os.getenv("KANAL_ID")
 
 IT = Client(
 	"Etiraf Bot",
 	api_id=API_ID,
 	api_hash=API_HASH,
-	bot_token=BOT_TOKEN
+	bot_token=BOT_TOKEN,
+        kanal_id=KANAL_ID,
 	)
 
 CHL = -1001617550080
