@@ -1,0 +1,21 @@
+{
+	"name": "Nexus Etiraf Bot",
+	"description": "@A_l_i_y_e_v_d_i Tərəfindən kodlanan etiraf botu",
+	"repository": "https://github.com/Aliyevdii/ET-RAF",
+	"env": {
+		"BOT_TOKEN": {
+			"description": "@BotFather dan alınan Bot Token girin."
+		},
+		"API_ID": {
+			"description": "Sizin APİ İD"
+		},
+		"API_HASH": {
+			"description": "Sizin Api Hash"
+		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
