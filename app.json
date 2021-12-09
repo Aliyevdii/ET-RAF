@@ -12,6 +12,11 @@
 		"API_HASH": {
 			"description": "Sizin Api Hash"
 		}
+
+		},
+		"KANAL_ID": {
+			"description": "Kanal id"
+		}
 	},
 	"buildpacks": [
 		{
