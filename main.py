@@ -8,18 +8,17 @@ import os
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 API_ID = os.getenv("API_ID")
 API_HASH = os.getenv("API_HASH")
-KANAL_ID = os.getenv("KANAL_ID")
 
 IT = Client(
-	"陌tiraf Bot",
+	"Etiraf Bot",
 	api_id=API_ID,
 	api_hash=API_HASH,
 	bot_token=BOT_TOKEN
 	)
 
-CHL = -1001555466882
+CHL = -1001617550080
 
-PM = 1340618002
+PM = 2066118611
 
 @IT.on_message(
 	filters.command("start")
